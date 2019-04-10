@@ -52,7 +52,7 @@
 		<dependency>
 			<groupId>com.liferay.faces</groupId>
 			<artifactId>com.liferay.faces.bridge.ext</artifactId>
-			<version>5.0.3</version>
+			<version>5.0.4-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.liferay.faces</groupId>
