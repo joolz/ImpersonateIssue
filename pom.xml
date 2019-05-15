@@ -11,8 +11,8 @@
 	<version>1.0.0</version>
 	<properties>
 		<faces.api.version>2.2</faces.api.version>
-		<liferay.faces.bridge.ext.version>5.0.1</liferay.faces.bridge.ext.version>
-		<liferay.faces.bridge.impl.version>4.1.0</liferay.faces.bridge.impl.version>
+		<liferay.faces.bridge.ext.version>5.0.4</liferay.faces.bridge.ext.version>
+		<liferay.faces.bridge.impl.version>4.1.2</liferay.faces.bridge.impl.version>
 		<mojarra.version>2.2.14</mojarra.version>
 	</properties>
 	<build>
@@ -52,12 +52,12 @@
 		<dependency>
 			<groupId>com.liferay.faces</groupId>
 			<artifactId>com.liferay.faces.bridge.ext</artifactId>
-			<version>5.0.4-SNAPSHOT</version>
+			<version>${liferay.faces.bridge.ext.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.liferay.faces</groupId>
 			<artifactId>com.liferay.faces.bridge.impl</artifactId>
-			<version>4.1.2</version>
+			<version>${liferay.faces.bridge.impl.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>log4j</groupId>
